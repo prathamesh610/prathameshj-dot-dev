@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './Services.css'
 export const Services = () => {
     return (
-        <div>
-            <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla velit cupiditate hic, fuga voluptatem odit aperiam perspiciatis ipsam, possimus odio maxime nihil asperiores veritatis, at repudiandae temporibus ea eveniet! Ab esse quam voluptates, incidunt dignissimos minima debitis cupiditate culpa, officiis tempora qui et suscipit obcaecati facilis saepe! Minus eveniet dicta aliquam nihil explicabo ab, assumenda et dolore voluptatibus. Illo non consectetur obcaecati dicta officia! Officia architecto repellat unde saepe illum praesentium eveniet enim blanditiis dignissimos hic vitae, cumque cum a maiores. Et ipsa minima optio libero sed mollitia? Quia quam repellat laboriosam error ex similique eius aperiam perferendis delectus voluptatum.</div>
+        <div >
+            <div className='text'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla velit cupiditate hic, fuga voluptatem odit aperiam perspiciatis ipsam, possimus odio maxime nihil asperiores veritatis, at repudiandae temporibus ea eveniet! Ab esse quam voluptates, incidunt dignissimos minima debitis cupiditate culpa, officiis tempora qui et suscipit obcaecati facilis saepe! Minus eveniet dicta aliquam nihil explicabo ab, assumenda et dolore voluptatibus. Illo non consectetur obcaecati dicta officia! Officia architecto repellat unde saepe illum praesentium eveniet enim blanditiis dignissimos hic vitae, cumque cum a maiores. Et ipsa minima optio libero sed mollitia? Quia quam repellat laboriosam error ex similique eius aperiam perferendis delectus voluptatum.</div>
             <br />
             <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla velit cupiditate hic, fuga voluptatem odit aperiam perspiciatis ipsam, possimus odio maxime nihil asperiores veritatis, at repudiandae temporibus ea eveniet! Ab esse quam voluptates, incidunt dignissimos minima debitis cupiditate culpa, officiis tempora qui et suscipit obcaecati facilis saepe! Minus eveniet dicta aliquam nihil explicabo ab, assumenda et dolore voluptatibus. Illo non consectetur obcaecati dicta officia! Officia architecto repellat unde saepe illum praesentium eveniet enim blanditiis dignissimos hic vitae, cumque cum a maiores. Et ipsa minima optio libero sed mollitia? Quia quam repellat laboriosam error ex similique eius aperiam perferendis delectus voluptatum.</div>
             <br />
