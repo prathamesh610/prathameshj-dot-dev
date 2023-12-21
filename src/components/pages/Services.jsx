@@ -1,5 +1,5 @@
 import React from 'react'
-import './Services.css'
+// import './Services.css'
 export const Services = () => {
     return (
         <div >
