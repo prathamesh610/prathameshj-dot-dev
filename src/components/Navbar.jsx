@@ -6,25 +6,25 @@ export const Navbar = () => {
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
-     // Use useEffect to update body styles when menuOpen changes
+    // Use useEffect to update body styles when menuOpen changes
     useEffect(() => {
-    if (menuOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'auto';
+        if (menuOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'auto';
+        }
+
+        // Cleanup function to reset styles when component unmounts
+        return () => {
+            document.body.style.overflow = 'auto';
+        };
+    }, [menuOpen]);
+
+    const toggleMenuAndOpen = () => {
+        toggleMenu();
+
     }
 
-    // Cleanup function to reset styles when component unmounts
-    return () => {
-      document.body.style.overflow = 'auto';
-    };
-    }, [menuOpen]);
-    
-    const toggleMenuAndOpen = () =>{
-        toggleMenu();
-        
-    }
-   
     return (
         <>
             <div className='header container' >
@@ -34,7 +34,7 @@ export const Navbar = () => {
                             <a className='header__link' href='#about'>About</a>
                         </li>
                         <li >
-                            <a className='header__link' href='#featured'>Work</a>
+                            <a className='header__link' href='#projects'>Work</a>
                         </li>
                         <li >
                             <a className='header__link' href='#contact'>Contact</a>
@@ -70,13 +70,13 @@ export const Navbar = () => {
                 <nav>
                     <ul className="mobile-nav__menu">
                         <li>
-                            <a href="#about" className="mobile-nav__link" onClick={()=>toggleMenuAndOpen()}>About</a>
+                            <a href="#about" className="mobile-nav__link" onClick={() => toggleMenuAndOpen()}>About</a>
                         </li>
                         <li>
-                            <a href="#featured" className="mobile-nav__link" onClick={()=>toggleMenuAndOpen()}>Work</a>
+                            <a href="#featured" className="mobile-nav__link" onClick={() => toggleMenuAndOpen()}>Work</a>
                         </li>
                         <li>
-                            <a href="#contact" className="mobile-nav__link" onClick={()=>toggleMenuAndOpen()}>Contact</a>
+                            <a href="#contact" className="mobile-nav__link" onClick={() => toggleMenuAndOpen()}>Contact</a>
                         </li>
                         <li className='mobile-nav__link-line'></li>
                         <li>
