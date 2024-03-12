@@ -18,13 +18,13 @@ export const Home = () => {
       </div> */}
 
         <h1 className='hero__title'>BACK-END <br /> JAVA DEVELOPER.</h1>
-        <p className='hero__desc'>Some <strong>generic</strong> description</p>
+        <p className='hero__desc'>Professinal  <strong>Java/GoLang</strong> developer</p>
         <a className='hero__btn btn' href="mailto:hello@prathameshj.dev" target='_blank'>Reach out</a>
       </section>
       <section id='about' className='about container section'>
         <div className='about__content'>
           <h2 className='about__title'>About</h2>
-          <p className='about__desc'>Hello there! I'm Prathamesh, a <strong>Backend Developer</strong> based near Pune, India. I wake up in the morning grab my oatmeal and build reliable production ready Java Spring Boot apps, everyday.</p>
+          <p className='about__desc'>Hello there! I'm Prathamesh, a <strong>Backend Developer</strong> based near Pune, India. I wake up in the morning grab my oatmeal and build reliable production ready Java+Spring Boot apps, everyday.</p>
           <p className='about__desc'>People who know me say I'm obsessed, that's fair. I am driven by technology and love to learn new things.</p>
           <p className='about__desc'></p>
           <hr className='about__hr' />
@@ -33,7 +33,7 @@ export const Home = () => {
             <ul className='about__ul'>
               <li className='about__li'>Java</li>
               <li className='about__li'>Spring Boot</li>
-              <li className='about__li'>Redis</li>
+              <li className='about__li'>Golang</li>
             </ul>
             <ul className='about__ul'>
               <li className='about__li'>Apache Kafka</li>
@@ -47,7 +47,7 @@ export const Home = () => {
         </div>
       </section>
 
-      <section id='featured' className='featured container section'>
+      {/* <section id='featured' className='featured container section'>
         <h3 className='featured__subtitle'>Featured Projects</h3>
         <div className='featured__wrapper'>
 
@@ -83,7 +83,7 @@ export const Home = () => {
             <p className="featured__info">December 2022 - Present</p>
           </div>
         </div>
-        {/* TODO: ADD IMAGES LATER */}
+        // TODO: Add images later
         <div className="featured__img-container">
 
           <div className='featured__img-wrapper'>
@@ -111,36 +111,36 @@ export const Home = () => {
             <img src="/about.jpg" alt="" />
           </div>
         </div>
-      </section>
-      <section className="work container section">
+      </section> */}
+      <section id="projects" className="work container section">
         <h2 className="work__title">Projects</h2>
         <p className="work__desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati debitis aperiam minus, sint facilis culpa qui ex accusantium aspernatur eligendi distinctio tempora, voluptate voluptas modi assumenda delectus, cum laudantium sit.
+          Passionate Backend Developer exploring new technologies.
         </p>
         <div className="work__container">
           {/* Project 1 */}
-          <h3 className='work__project-title'>Kart Mall</h3>
+          {/* <h3 className='work__project-title'>Starwars App</h3> */}
           {/* use a square image only here. */}
-          <div className='work__img-wrapper work__image1'>
+          {/* <div className='work__img-wrapper work__image1'>
             <img src="/about.jpg" alt="Project 1" />
-          </div>
+          </div> */}
           <div className="work__project work__content1">
-            <h3 className="work__project-subtitle">Kart Mall</h3>
-            <p className='work__project-desc1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nobis inventore culpa quidem adipisci eius vitae nostrum autem.</p>
-            <p className='work__project-desc2'>Aperiam quos possimus magni magnam repellendus ratione officiis iure eos cupiditate velit.</p>
-            <a href="#" className="btn work__project-btn">Website</a>
+            <h3 className="work__project-subtitle">Starwars App</h3>
+            <p className='work__project-desc1'>I have built a basic Starwars Application using <strong>Java + Spring Boot</strong> and using a in memory datastructure to store the data.</p>
+            <p className='work__project-desc2'>This is a basic application which allows users to fetch all the characters/vehicles/planets/movies from starwars franchaise. This project also uses the SOLID and HATEOAS principles.</p>
+            <a href="https://github.com/prathamesh610/starwars-be" target='_blank' className="btn work__project-btn">Github</a>
           </div>
           {/* Project 2 */}
-          <h3 className='work__project-title'>Kart Mall Draft 2</h3>
+          {/* <h3 className='work__project-title'>Youtube Video Data Fetcher</h3> */}
           {/* use a square image only here. */}
-          <div className='work__img-wrapper work__image2'>
+          {/* <div className='work__img-wrapper work__image2'>
             <img src="/about.jpg" alt="Project 1" />
-          </div>
+          </div> */}
           <div className="work__project work__content2">
-            <h3 className="work__project-subtitle">Kart Mall Draft 2</h3>
-            <p className='work__project-desc1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nobis inventore culpa quidem adipisci eius vitae nostrum autem.</p>
-            <p className='work__project-desc2'>Aperiam quos possimus magni magnam repellendus ratione officiis iure eos cupiditate velit.</p>
-            <a href="#" className="btn work__project-btn">Website</a>
+            <h3 className="work__project-subtitle">Youtube Video Data Fetcher</h3>
+            <p className='work__project-desc1'>I have built a basic Youtube Video Data Fetcher using <strong>Golang+Echo</strong> and <strong>MongoDB</strong>.</p>
+            <p className='work__project-desc2'>This is a learning project for me to focus on Golang development and Docker. I have also explored in multi containerization using docker compose.</p>
+            <a href="https://github.com/prathamesh610/fampay-youtube-assignment" target='_blank' className="btn work__project-btn">Github</a>
           </div>
         </div>
       </section>
