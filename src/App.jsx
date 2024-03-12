@@ -6,12 +6,12 @@ import { MaintenanceBanner } from './components/MaintenanceBanner'
 function App() {
   return (<>
     <div className='App'>
-      <MaintenanceBanner />
-      {/* <Navbar />
+      {/* <MaintenanceBanner /> */}
+      <Navbar />
       <Home />
-      <Footer />  */}
+      <Footer />
     </div>
-    </>
+  </>
   )
 
 }
